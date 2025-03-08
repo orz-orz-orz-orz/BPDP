@@ -1,6 +1,6 @@
 __pycache__/
 *.py[cod]
-
+data/APLAWDW*
 
 # Distribution / packaging
 .Python
