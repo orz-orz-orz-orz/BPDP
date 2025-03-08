@@ -1,0 +1,1130 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 3.53 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "vuv" 
+        xmin = 0 
+        xmax = 3.53 
+        intervals: size = 21 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.22752907912082643 
+            text = "" 
+        intervals [2]:
+            xmin = 0.22752907912082643 
+            xmax = 0.37952709937725754 
+            text = "v" 
+        intervals [3]:
+            xmin = 0.37952709937725754 
+            xmax = 0.45027772909224073 
+            text = "" 
+        intervals [4]:
+            xmin = 0.45027772909224073 
+            xmax = 0.6580211753139072 
+            text = "v" 
+        intervals [5]:
+            xmin = 0.6580211753139072 
+            xmax = 0.7235359733150392 
+            text = "" 
+        intervals [6]:
+            xmin = 0.7235359733150392 
+            xmax = 0.847425600551844 
+            text = "v" 
+        intervals [7]:
+            xmin = 0.847425600551844 
+            xmax = 0.8644741194315799 
+            text = "" 
+        intervals [8]:
+            xmin = 0.8644741194315799 
+            xmax = 1.0946480048902325 
+            text = "v" 
+        intervals [9]:
+            xmin = 1.0946480048902325 
+            xmax = 1.1551912882573747 
+            text = "" 
+        intervals [10]:
+            xmin = 1.1551912882573747 
+            xmax = 1.251989037177527 
+            text = "v" 
+        intervals [11]:
+            xmin = 1.251989037177527 
+            xmax = 1.3842332822169348 
+            text = "" 
+        intervals [12]:
+            xmin = 1.3842332822169348 
+            xmax = 1.7058687677469406 
+            text = "v" 
+        intervals [13]:
+            xmin = 1.7058687677469406 
+            xmax = 1.8753440705418816 
+            text = "" 
+        intervals [14]:
+            xmin = 1.8753440705418816 
+            xmax = 2.0706695713377044 
+            text = "v" 
+        intervals [15]:
+            xmin = 2.0706695713377044 
+            xmax = 2.332575449642726 
+            text = "" 
+        intervals [16]:
+            xmin = 2.332575449642726 
+            xmax = 2.6407317730253026 
+            text = "v" 
+        intervals [17]:
+            xmin = 2.6407317730253026 
+            xmax = 2.7181853095767545 
+            text = "" 
+        intervals [18]:
+            xmin = 2.7181853095767545 
+            xmax = 2.8124426132261875 
+            text = "v" 
+        intervals [19]:
+            xmin = 2.8124426132261875 
+            xmax = 2.9516528258281722 
+            text = "" 
+        intervals [20]:
+            xmin = 2.9516528258281722 
+            xmax = 3.372073122303828 
+            text = "v" 
+        intervals [21]:
+            xmin = 3.372073122303828 
+            xmax = 3.53 
+            text = "" 
+    item [2]:
+        class = "TextTier" 
+        name = "epoch" 
+        xmin = 0 
+        xmax = 3.53 
+        points: size = 342 
+        points [1]:
+            number = 0.01815625 
+            mark = "" 
+        points [2]:
+            number = 0.03209375 
+            mark = "" 
+        points [3]:
+            number = 0.0435625 
+            mark = "" 
+        points [4]:
+            number = 0.0604375 
+            mark = "" 
+        points [5]:
+            number = 0.11115625 
+            mark = "" 
+        points [6]:
+            number = 0.1179375 
+            mark = "" 
+        points [7]:
+            number = 0.120875 
+            mark = "" 
+        points [8]:
+            number = 0.12721875 
+            mark = "" 
+        points [9]:
+            number = 0.1319375 
+            mark = "" 
+        points [10]:
+            number = 0.13728125 
+            mark = "" 
+        points [11]:
+            number = 0.1495 
+            mark = "" 
+        points [12]:
+            number = 0.168625 
+            mark = "" 
+        points [13]:
+            number = 0.18709375 
+            mark = "" 
+        points [14]:
+            number = 0.1889375 
+            mark = "" 
+        points [15]:
+            number = 0.20765625 
+            mark = "" 
+        points [16]:
+            number = 0.22034375 
+            mark = "" 
+        points [17]:
+            number = 0.23234375 
+            mark = "" 
+        points [18]:
+            number = 0.24003125 
+            mark = "" 
+        points [19]:
+            number = 0.24790625 
+            mark = "" 
+        points [20]:
+            number = 0.25578125 
+            mark = "" 
+        points [21]:
+            number = 0.26365625 
+            mark = "" 
+        points [22]:
+            number = 0.271625 
+            mark = "" 
+        points [23]:
+            number = 0.27946875 
+            mark = "" 
+        points [24]:
+            number = 0.28725 
+            mark = "" 
+        points [25]:
+            number = 0.295 
+            mark = "" 
+        points [26]:
+            number = 0.3026875 
+            mark = "" 
+        points [27]:
+            number = 0.310375 
+            mark = "" 
+        points [28]:
+            number = 0.317875 
+            mark = "" 
+        points [29]:
+            number = 0.3253125 
+            mark = "" 
+        points [30]:
+            number = 0.3326875 
+            mark = "" 
+        points [31]:
+            number = 0.3400625 
+            mark = "" 
+        points [32]:
+            number = 0.34715625 
+            mark = "" 
+        points [33]:
+            number = 0.35440625 
+            mark = "" 
+        points [34]:
+            number = 0.3614375 
+            mark = "" 
+        points [35]:
+            number = 0.3686875 
+            mark = "" 
+        points [36]:
+            number = 0.37521875 
+            mark = "" 
+        points [37]:
+            number = 0.3828125 
+            mark = "" 
+        points [38]:
+            number = 0.3931875 
+            mark = "" 
+        points [39]:
+            number = 0.41759375 
+            mark = "" 
+        points [40]:
+            number = 0.43809375 
+            mark = "" 
+        points [41]:
+            number = 0.45759375 
+            mark = "" 
+        points [42]:
+            number = 0.4634375 
+            mark = "" 
+        points [43]:
+            number = 0.46925 
+            mark = "" 
+        points [44]:
+            number = 0.47515625 
+            mark = "" 
+        points [45]:
+            number = 0.4813125 
+            mark = "" 
+        points [46]:
+            number = 0.48740625 
+            mark = "" 
+        points [47]:
+            number = 0.4933125 
+            mark = "" 
+        points [48]:
+            number = 0.49959375 
+            mark = "" 
+        points [49]:
+            number = 0.50575 
+            mark = "" 
+        points [50]:
+            number = 0.51175 
+            mark = "" 
+        points [51]:
+            number = 0.51815625 
+            mark = "" 
+        points [52]:
+            number = 0.524375 
+            mark = "" 
+        points [53]:
+            number = 0.53065625 
+            mark = "" 
+        points [54]:
+            number = 0.537 
+            mark = "" 
+        points [55]:
+            number = 0.54334375 
+            mark = "" 
+        points [56]:
+            number = 0.5496875 
+            mark = "" 
+        points [57]:
+            number = 0.556125 
+            mark = "" 
+        points [58]:
+            number = 0.562625 
+            mark = "" 
+        points [59]:
+            number = 0.56921875 
+            mark = "" 
+        points [60]:
+            number = 0.57584375 
+            mark = "" 
+        points [61]:
+            number = 0.5825625 
+            mark = "" 
+        points [62]:
+            number = 0.58934375 
+            mark = "" 
+        points [63]:
+            number = 0.59625 
+            mark = "" 
+        points [64]:
+            number = 0.603375 
+            mark = "" 
+        points [65]:
+            number = 0.61065625 
+            mark = "" 
+        points [66]:
+            number = 0.61778125 
+            mark = "" 
+        points [67]:
+            number = 0.6249375 
+            mark = "" 
+        points [68]:
+            number = 0.631375 
+            mark = "" 
+        points [69]:
+            number = 0.63809375 
+            mark = "" 
+        points [70]:
+            number = 0.646 
+            mark = "" 
+        points [71]:
+            number = 0.6535 
+            mark = "" 
+        points [72]:
+            number = 0.66165625 
+            mark = "" 
+        points [73]:
+            number = 0.6701875 
+            mark = "" 
+        points [74]:
+            number = 0.68075 
+            mark = "" 
+        points [75]:
+            number = 0.693125 
+            mark = "" 
+        points [76]:
+            number = 0.71175 
+            mark = "" 
+        points [77]:
+            number = 0.72771875 
+            mark = "" 
+        points [78]:
+            number = 0.734625 
+            mark = "" 
+        points [79]:
+            number = 0.7415625 
+            mark = "" 
+        points [80]:
+            number = 0.749625 
+            mark = "" 
+        points [81]:
+            number = 0.75728125 
+            mark = "" 
+        points [82]:
+            number = 0.765 
+            mark = "" 
+        points [83]:
+            number = 0.77271875 
+            mark = "" 
+        points [84]:
+            number = 0.78065625 
+            mark = "" 
+        points [85]:
+            number = 0.78871875 
+            mark = "" 
+        points [86]:
+            number = 0.79709375 
+            mark = "" 
+        points [87]:
+            number = 0.80565625 
+            mark = "" 
+        points [88]:
+            number = 0.81415625 
+            mark = "" 
+        points [89]:
+            number = 0.82190625 
+            mark = "" 
+        points [90]:
+            number = 0.8295 
+            mark = "" 
+        points [91]:
+            number = 0.83609375 
+            mark = "" 
+        points [92]:
+            number = 0.84321875 
+            mark = "" 
+        points [93]:
+            number = 0.85240625 
+            mark = "" 
+        points [94]:
+            number = 0.8673125 
+            mark = "" 
+        points [95]:
+            number = 0.873625 
+            mark = "" 
+        points [96]:
+            number = 0.88084375 
+            mark = "" 
+        points [97]:
+            number = 0.8881875 
+            mark = "" 
+        points [98]:
+            number = 0.89584375 
+            mark = "" 
+        points [99]:
+            number = 0.9036875 
+            mark = "" 
+        points [100]:
+            number = 0.91125 
+            mark = "" 
+        points [101]:
+            number = 0.9189375 
+            mark = "" 
+        points [102]:
+            number = 0.9264375 
+            mark = "" 
+        points [103]:
+            number = 0.93396875 
+            mark = "" 
+        points [104]:
+            number = 0.94146875 
+            mark = "" 
+        points [105]:
+            number = 0.94884375 
+            mark = "" 
+        points [106]:
+            number = 0.9561875 
+            mark = "" 
+        points [107]:
+            number = 0.9634375 
+            mark = "" 
+        points [108]:
+            number = 0.97059375 
+            mark = "" 
+        points [109]:
+            number = 0.97775 
+            mark = "" 
+        points [110]:
+            number = 0.9848125 
+            mark = "" 
+        points [111]:
+            number = 0.99184375 
+            mark = "" 
+        points [112]:
+            number = 0.998875 
+            mark = "" 
+        points [113]:
+            number = 1.005875 
+            mark = "" 
+        points [114]:
+            number = 1.012875 
+            mark = "" 
+        points [115]:
+            number = 1.019875 
+            mark = "" 
+        points [116]:
+            number = 1.02690625 
+            mark = "" 
+        points [117]:
+            number = 1.03403125 
+            mark = "" 
+        points [118]:
+            number = 1.041125 
+            mark = "" 
+        points [119]:
+            number = 1.04825 
+            mark = "" 
+        points [120]:
+            number = 1.055375 
+            mark = "" 
+        points [121]:
+            number = 1.0624375 
+            mark = "" 
+        points [122]:
+            number = 1.06953125 
+            mark = "" 
+        points [123]:
+            number = 1.0766875 
+            mark = "" 
+        points [124]:
+            number = 1.08403125 
+            mark = "" 
+        points [125]:
+            number = 1.090875 
+            mark = "" 
+        points [126]:
+            number = 1.09790625 
+            mark = "" 
+        points [127]:
+            number = 1.107125 
+            mark = "" 
+        points [128]:
+            number = 1.11515625 
+            mark = "" 
+        points [129]:
+            number = 1.1243125 
+            mark = "" 
+        points [130]:
+            number = 1.15771875 
+            mark = "" 
+        points [131]:
+            number = 1.16553125 
+            mark = "" 
+        points [132]:
+            number = 1.17359375 
+            mark = "" 
+        points [133]:
+            number = 1.18178125 
+            mark = "" 
+        points [134]:
+            number = 1.19034375 
+            mark = "" 
+        points [135]:
+            number = 1.1989375 
+            mark = "" 
+        points [136]:
+            number = 1.20775 
+            mark = "" 
+        points [137]:
+            number = 1.216625 
+            mark = "" 
+        points [138]:
+            number = 1.22625 
+            mark = "" 
+        points [139]:
+            number = 1.23771875 
+            mark = "" 
+        points [140]:
+            number = 1.2455625 
+            mark = "" 
+        points [141]:
+            number = 1.2555625 
+            mark = "" 
+        points [142]:
+            number = 1.2763125 
+            mark = "" 
+        points [143]:
+            number = 1.2920625 
+            mark = "" 
+        points [144]:
+            number = 1.29865625 
+            mark = "" 
+        points [145]:
+            number = 1.307 
+            mark = "" 
+        points [146]:
+            number = 1.31625 
+            mark = "" 
+        points [147]:
+            number = 1.3326875 
+            mark = "" 
+        points [148]:
+            number = 1.34634375 
+            mark = "" 
+        points [149]:
+            number = 1.38809375 
+            mark = "" 
+        points [150]:
+            number = 1.3944375 
+            mark = "" 
+        points [151]:
+            number = 1.403875 
+            mark = "" 
+        points [152]:
+            number = 1.41328125 
+            mark = "" 
+        points [153]:
+            number = 1.4226875 
+            mark = "" 
+        points [154]:
+            number = 1.43209375 
+            mark = "" 
+        points [155]:
+            number = 1.441625 
+            mark = "" 
+        points [156]:
+            number = 1.45115625 
+            mark = "" 
+        points [157]:
+            number = 1.4606875 
+            mark = "" 
+        points [158]:
+            number = 1.47021875 
+            mark = "" 
+        points [159]:
+            number = 1.4798125 
+            mark = "" 
+        points [160]:
+            number = 1.4894375 
+            mark = "" 
+        points [161]:
+            number = 1.49921875 
+            mark = "" 
+        points [162]:
+            number = 1.50909375 
+            mark = "" 
+        points [163]:
+            number = 1.51909375 
+            mark = "" 
+        points [164]:
+            number = 1.52921875 
+            mark = "" 
+        points [165]:
+            number = 1.53946875 
+            mark = "" 
+        points [166]:
+            number = 1.54975 
+            mark = "" 
+        points [167]:
+            number = 1.56046875 
+            mark = "" 
+        points [168]:
+            number = 1.57084375 
+            mark = "" 
+        points [169]:
+            number = 1.5806875 
+            mark = "" 
+        points [170]:
+            number = 1.59246875 
+            mark = "" 
+        points [171]:
+            number = 1.60259375 
+            mark = "" 
+        points [172]:
+            number = 1.61375 
+            mark = "" 
+        points [173]:
+            number = 1.623625 
+            mark = "" 
+        points [174]:
+            number = 1.63675 
+            mark = "" 
+        points [175]:
+            number = 1.648 
+            mark = "" 
+        points [176]:
+            number = 1.6596875 
+            mark = "" 
+        points [177]:
+            number = 1.66909375 
+            mark = "" 
+        points [178]:
+            number = 1.68234375 
+            mark = "" 
+        points [179]:
+            number = 1.69240625 
+            mark = "" 
+        points [180]:
+            number = 1.70115625 
+            mark = "" 
+        points [181]:
+            number = 1.709375 
+            mark = "" 
+        points [182]:
+            number = 1.7168125 
+            mark = "" 
+        points [183]:
+            number = 1.7216875 
+            mark = "" 
+        points [184]:
+            number = 1.7275625 
+            mark = "" 
+        points [185]:
+            number = 1.73903125 
+            mark = "" 
+        points [186]:
+            number = 1.7554375 
+            mark = "" 
+        points [187]:
+            number = 1.76540625 
+            mark = "" 
+        points [188]:
+            number = 1.77878125 
+            mark = "" 
+        points [189]:
+            number = 1.79090625 
+            mark = "" 
+        points [190]:
+            number = 1.80290625 
+            mark = "" 
+        points [191]:
+            number = 1.810625 
+            mark = "" 
+        points [192]:
+            number = 1.820625 
+            mark = "" 
+        points [193]:
+            number = 1.84078125 
+            mark = "" 
+        points [194]:
+            number = 1.8606875 
+            mark = "" 
+        points [195]:
+            number = 1.8781875 
+            mark = "" 
+        points [196]:
+            number = 1.8855625 
+            mark = "" 
+        points [197]:
+            number = 1.89221875 
+            mark = "" 
+        points [198]:
+            number = 1.8994375 
+            mark = "" 
+        points [199]:
+            number = 1.90665625 
+            mark = "" 
+        points [200]:
+            number = 1.91375 
+            mark = "" 
+        points [201]:
+            number = 1.921 
+            mark = "" 
+        points [202]:
+            number = 1.92825 
+            mark = "" 
+        points [203]:
+            number = 1.93546875 
+            mark = "" 
+        points [204]:
+            number = 1.94271875 
+            mark = "" 
+        points [205]:
+            number = 1.94996875 
+            mark = "" 
+        points [206]:
+            number = 1.957375 
+            mark = "" 
+        points [207]:
+            number = 1.9650625 
+            mark = "" 
+        points [208]:
+            number = 1.9728125 
+            mark = "" 
+        points [209]:
+            number = 1.98071875 
+            mark = "" 
+        points [210]:
+            number = 1.98859375 
+            mark = "" 
+        points [211]:
+            number = 1.99640625 
+            mark = "" 
+        points [212]:
+            number = 2.0040625 
+            mark = "" 
+        points [213]:
+            number = 2.0115625 
+            mark = "" 
+        points [214]:
+            number = 2.01909375 
+            mark = "" 
+        points [215]:
+            number = 2.02671875 
+            mark = "" 
+        points [216]:
+            number = 2.034625 
+            mark = "" 
+        points [217]:
+            number = 2.0426875 
+            mark = "" 
+        points [218]:
+            number = 2.05025 
+            mark = "" 
+        points [219]:
+            number = 2.05859375 
+            mark = "" 
+        points [220]:
+            number = 2.06565625 
+            mark = "" 
+        points [221]:
+            number = 2.0758125 
+            mark = "" 
+        points [222]:
+            number = 2.08040625 
+            mark = "" 
+        points [223]:
+            number = 2.09065625 
+            mark = "" 
+        points [224]:
+            number = 2.09696875 
+            mark = "" 
+        points [225]:
+            number = 2.10371875 
+            mark = "" 
+        points [226]:
+            number = 2.1175625 
+            mark = "" 
+        points [227]:
+            number = 2.1368125 
+            mark = "" 
+        points [228]:
+            number = 2.14965625 
+            mark = "" 
+        points [229]:
+            number = 2.15746875 
+            mark = "" 
+        points [230]:
+            number = 2.16978125 
+            mark = "" 
+        points [231]:
+            number = 2.18775 
+            mark = "" 
+        points [232]:
+            number = 2.20659375 
+            mark = "" 
+        points [233]:
+            number = 2.2196875 
+            mark = "" 
+        points [234]:
+            number = 2.236625 
+            mark = "" 
+        points [235]:
+            number = 2.25190625 
+            mark = "" 
+        points [236]:
+            number = 2.26815625 
+            mark = "" 
+        points [237]:
+            number = 2.2824375 
+            mark = "" 
+        points [238]:
+            number = 2.3009375 
+            mark = "" 
+        points [239]:
+            number = 2.31565625 
+            mark = "" 
+        points [240]:
+            number = 2.33009375 
+            mark = "" 
+        points [241]:
+            number = 2.33496875 
+            mark = "" 
+        points [242]:
+            number = 2.34059375 
+            mark = "" 
+        points [243]:
+            number = 2.347625 
+            mark = "" 
+        points [244]:
+            number = 2.35471875 
+            mark = "" 
+        points [245]:
+            number = 2.361875 
+            mark = "" 
+        points [246]:
+            number = 2.36909375 
+            mark = "" 
+        points [247]:
+            number = 2.37634375 
+            mark = "" 
+        points [248]:
+            number = 2.38365625 
+            mark = "" 
+        points [249]:
+            number = 2.39103125 
+            mark = "" 
+        points [250]:
+            number = 2.3985 
+            mark = "" 
+        points [251]:
+            number = 2.4060625 
+            mark = "" 
+        points [252]:
+            number = 2.41371875 
+            mark = "" 
+        points [253]:
+            number = 2.4214375 
+            mark = "" 
+        points [254]:
+            number = 2.4293125 
+            mark = "" 
+        points [255]:
+            number = 2.4373125 
+            mark = "" 
+        points [256]:
+            number = 2.44546875 
+            mark = "" 
+        points [257]:
+            number = 2.45375 
+            mark = "" 
+        points [258]:
+            number = 2.46228125 
+            mark = "" 
+        points [259]:
+            number = 2.47103125 
+            mark = "" 
+        points [260]:
+            number = 2.48 
+            mark = "" 
+        points [261]:
+            number = 2.48925 
+            mark = "" 
+        points [262]:
+            number = 2.498875 
+            mark = "" 
+        points [263]:
+            number = 2.50865625 
+            mark = "" 
+        points [264]:
+            number = 2.51859375 
+            mark = "" 
+        points [265]:
+            number = 2.5286875 
+            mark = "" 
+        points [266]:
+            number = 2.539 
+            mark = "" 
+        points [267]:
+            number = 2.54959375 
+            mark = "" 
+        points [268]:
+            number = 2.56021875 
+            mark = "" 
+        points [269]:
+            number = 2.5710625 
+            mark = "" 
+        points [270]:
+            number = 2.5800625 
+            mark = "" 
+        points [271]:
+            number = 2.59290625 
+            mark = "" 
+        points [272]:
+            number = 2.6038125 
+            mark = "" 
+        points [273]:
+            number = 2.6143125 
+            mark = "" 
+        points [274]:
+            number = 2.62396875 
+            mark = "" 
+        points [275]:
+            number = 2.635375 
+            mark = "" 
+        points [276]:
+            number = 2.6444375 
+            mark = "" 
+        points [277]:
+            number = 2.6523125 
+            mark = "" 
+        points [278]:
+            number = 2.6655 
+            mark = "" 
+        points [279]:
+            number = 2.686125 
+            mark = "" 
+        points [280]:
+            number = 2.7054375 
+            mark = "" 
+        points [281]:
+            number = 2.7235 
+            mark = "" 
+        points [282]:
+            number = 2.73875 
+            mark = "" 
+        points [283]:
+            number = 2.74696875 
+            mark = "" 
+        points [284]:
+            number = 2.755625 
+            mark = "" 
+        points [285]:
+            number = 2.766625 
+            mark = "" 
+        points [286]:
+            number = 2.7761875 
+            mark = "" 
+        points [287]:
+            number = 2.79484375 
+            mark = "" 
+        points [288]:
+            number = 2.80459375 
+            mark = "" 
+        points [289]:
+            number = 2.81784375 
+            mark = "" 
+        points [290]:
+            number = 2.8365 
+            mark = "" 
+        points [291]:
+            number = 2.8546875 
+            mark = "" 
+        points [292]:
+            number = 2.86453125 
+            mark = "" 
+        points [293]:
+            number = 2.878625 
+            mark = "" 
+        points [294]:
+            number = 2.894375 
+            mark = "" 
+        points [295]:
+            number = 2.90865625 
+            mark = "" 
+        points [296]:
+            number = 2.95721875 
+            mark = "" 
+        points [297]:
+            number = 2.96459375 
+            mark = "" 
+        points [298]:
+            number = 2.9723125 
+            mark = "" 
+        points [299]:
+            number = 2.98021875 
+            mark = "" 
+        points [300]:
+            number = 2.9881875 
+            mark = "" 
+        points [301]:
+            number = 2.99628125 
+            mark = "" 
+        points [302]:
+            number = 3.0045 
+            mark = "" 
+        points [303]:
+            number = 3.0126875 
+            mark = "" 
+        points [304]:
+            number = 3.02109375 
+            mark = "" 
+        points [305]:
+            number = 3.02959375 
+            mark = "" 
+        points [306]:
+            number = 3.03809375 
+            mark = "" 
+        points [307]:
+            number = 3.04671875 
+            mark = "" 
+        points [308]:
+            number = 3.05559375 
+            mark = "" 
+        points [309]:
+            number = 3.06465625 
+            mark = "" 
+        points [310]:
+            number = 3.0758125 
+            mark = "" 
+        points [311]:
+            number = 3.0850625 
+            mark = "" 
+        points [312]:
+            number = 3.094875 
+            mark = "" 
+        points [313]:
+            number = 3.1048125 
+            mark = "" 
+        points [314]:
+            number = 3.11484375 
+            mark = "" 
+        points [315]:
+            number = 3.12525 
+            mark = "" 
+        points [316]:
+            number = 3.1363125 
+            mark = "" 
+        points [317]:
+            number = 3.1463125 
+            mark = "" 
+        points [318]:
+            number = 3.15909375 
+            mark = "" 
+        points [319]:
+            number = 3.17109375 
+            mark = "" 
+        points [320]:
+            number = 3.18121875 
+            mark = "" 
+        points [321]:
+            number = 3.1954375 
+            mark = "" 
+        points [322]:
+            number = 3.20971875 
+            mark = "" 
+        points [323]:
+            number = 3.2231875 
+            mark = "" 
+        points [324]:
+            number = 3.23559375 
+            mark = "" 
+        points [325]:
+            number = 3.24940625 
+            mark = "" 
+        points [326]:
+            number = 3.26534375 
+            mark = "" 
+        points [327]:
+            number = 3.27609375 
+            mark = "" 
+        points [328]:
+            number = 3.28709375 
+            mark = "" 
+        points [329]:
+            number = 3.3013125 
+            mark = "" 
+        points [330]:
+            number = 3.31596875 
+            mark = "" 
+        points [331]:
+            number = 3.33115625 
+            mark = "" 
+        points [332]:
+            number = 3.34528125 
+            mark = "" 
+        points [333]:
+            number = 3.36471875 
+            mark = "" 
+        points [334]:
+            number = 3.3799375 
+            mark = "" 
+        points [335]:
+            number = 3.3979375 
+            mark = "" 
+        points [336]:
+            number = 3.4291875 
+            mark = "" 
+        points [337]:
+            number = 3.43409375 
+            mark = "" 
+        points [338]:
+            number = 3.449875 
+            mark = "" 
+        points [339]:
+            number = 3.46553125 
+            mark = "" 
+        points [340]:
+            number = 3.484375 
+            mark = "" 
+        points [341]:
+            number = 3.502875 
+            mark = "" 
+        points [342]:
+            number = 3.5235625 
+            mark = "" 
