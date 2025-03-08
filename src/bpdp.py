@@ -120,7 +120,7 @@ def dft_matrix(n, m):
     return a @ b
 
 
-def cost_fn(x, n2, n1, n0, short=50, long=500, debug=False):
+def cost_fn(x, n2, n1, n0, alpha, short=50, long=500, debug=False):
     # 每次看前 2 個 pitch mark
     # n2 < n1 < n0
     # 如果是 restart 狀況，代表前面一個 片段 [n2+1, n1] 是使用 sum of squared
@@ -128,18 +128,18 @@ def cost_fn(x, n2, n1, n0, short=50, long=500, debug=False):
     x1 = x[n2 + 1: n1 + 1]
 
     if len(x0) < short:  # 不允許過短的
-        if debug: print("too short")
+        if debug: print(f"({n2}, {n1}, {n0}): too short")
         return torch.inf
 
     p0 = x0.pow(2)
 
     if len(x0) > long or len(x1) > long: 
-        if debug: print("current frame or previous frame is too long.")
-        return p0.sum()
+        if debug: print(f"({n2}, {n1}, {n0}): too long")
+        return alpha[n0] - alpha[n1] #p0.sum()
 
     if 2 * len(x0) < len(x1) or 2 * len(x1) < len(x0) :
-        if debug: print("the lengths of two frames are too different.")
-        return p0.sum() 
+        if debug: print(f"({n2}, {n1}, {n0}): too different")
+        return alpha[n0] - alpha[n1] # p0.sum() 
     # resample x1 to x0
     w = dft_matrix(n1 - n2, n0 - n1)
     x0_ = x1 @ w
@@ -151,18 +151,18 @@ def cost_fn(x, n2, n1, n0, short=50, long=500, debug=False):
     a = x0 @ x0_ / max(x0_ @ x0_, 1e-8)
 
     if a < 0:  # 不可以是負相關
-        if debug: print("drop the negative correlation point.")
+        if debug: print(f"({n2}, {n1}, {n0}): drop the negative correlation point.")
         return torch.inf
 
     r0 = (x0 - a * x0_).pow(2)
 
     #r = torch.minimum(p0, r0)
 
-    if debug: print("using the residual.")
+    if debug: print(f"({n2}, {n1}, {n0}): using the residual.")
     return r0.sum()
 
 
-def bpdp(x, sr=24000, wl_0=0.05, wl_1=0.002, f_lo=50.0, f_hi=550.0, beam_size=5, filt="bp1"):
+def bpdp(x, sr=24000, wl_0=0.05, wl_1=0.002, f_lo=50.0, f_hi=550.0, beam_size=5, filt="bp1", _probe=None):
     """
     Pitch marks extraction using Band-pass filtering with Dynamic Programming
 
@@ -231,13 +231,21 @@ def bpdp(x, sr=24000, wl_0=0.05, wl_1=0.002, f_lo=50.0, f_hi=550.0, beam_size=5,
             #  CALCULATE NEW SEGMENT COST
             if len(seq) > 1:
                 s_i = seq[-2]
-                cost_u = cost_fn(y, s_i, s_j, s_k, short, long)
+                if (_probe is not None) and (_probe[0] < s_k < _probe[1]):
+                    cost_u = cost_fn(y, s_i, s_j, s_k, alpha, short, long, debug=True)
+                else:
+                    cost_u = cost_fn(y, s_i, s_j, s_k, alpha, short, long, debug=False)
             else:
                 cost_u = alpha[s_k] - alpha[s_j]
             suffix = (s_j, s_k)
-            new_cost = cost + cost_u - beta[s_j] + beta[s_k]
+            # new_cost = cost + cost_u - beta[s_j] + beta[s_k]
+            new_cost = cost + ((beta[s_k] - beta[s_j]) + cost_u)
             # NEW COST-SUBSET PAIR
             new_subset = (new_cost, (*seq, s_k))
+            if _probe is not None:
+                if _probe[0] < s_k < _probe[1]:
+                    print(f"new_node = ({new_subset[0]}, {new_subset[1][-5:]})")
+
             # MERGE THE SUBSETS WITH SAME SUFFIX
             if suffix in new_subsets:
                 min_subset = new_subsets[suffix]
@@ -253,8 +261,15 @@ def bpdp(x, sr=24000, wl_0=0.05, wl_1=0.002, f_lo=50.0, f_hi=550.0, beam_size=5,
         subsets = new_subsets + subsets
         # SHRINK THE LIST OF SUBSETS
         if len(subsets) > beam_size:
-            subsets.sort(key=itemgetter(0))
+            subsets.sort(key=itemgetter(0)) 
             subsets = subsets[:beam_size]
+        
+        if _probe is not None:
+            if _probe[0] < s_k < _probe[1]:
+                print(f"stack after add new node {s_k}")
+                for i, subset in enumerate(subsets):
+                    print(f"[{i}] = ({subset[0]}, {subset[1][-5:]})")
+
     # GET THE BEST SUBSET
     subsets.sort(key=itemgetter(0))
     p = subsets[0][1]
