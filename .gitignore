@@ -3,6 +3,8 @@ __pycache__/
 data/APLAWDW*
 data/CMU_ARCTIC_SJB30_*
 **/*.wav
+**/*.pdf
+
 # Distribution / packaging
 .Python
 build/
