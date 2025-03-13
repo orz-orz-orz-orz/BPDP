@@ -6,25 +6,27 @@ data/CMU_ARCTIC_SJB30_*
 **/*.pdf
 
 # Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-eggs/
-.eggs/
-lib/
-lib64/
-downloads/
-data/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+**/.Python
+**/build/
+**/develop-eggs/
+**/dist/
+**/eggs/
+**/.eggs/
+**/lib/
+**/lib64/
+**/downloads/
+**/data/
+**/parts/
+**/sdist/
+**/var/
+**/wheels/
+**/share/python-wheels/
+**/*.egg-info/
+**/.installed.cfg
+**/*.egg
+**/MANIFEST
+**/.venv
+
 
 **/.DS_Store
 .DS_Store

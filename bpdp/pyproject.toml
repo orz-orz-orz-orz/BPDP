@@ -1,0 +1,24 @@
+[project]
+name = "bpdp"
+version = "0.1.0"
+authors = [
+    { name = "林彥廷(Yen-Ting, Lin)", email="d26923050@gmail.com"}
+]
+description = "Epoch extraction with bandpass filter and dynamic progamming"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "torch >= 2.0.0"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Topic :: Multimedia :: Sound/Audio :: Speech"
+]
+license = "BSD-3-Clause"
+license-files = ["LICENSE.txt"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
