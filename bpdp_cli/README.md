@@ -7,6 +7,32 @@ One can install the scripts using pip
 pip install bpdp_cli
 ```
 
+Note: We use torchaudio to read the audio files. However, torchaudio will not installed the backends for you. 
+You need to install one of the backends using the system package manager, e.g:
+
+- FFmpeg
+```bash
+# on ubuntu/debian
+sudo apt install ffmpeg
+# on mac using MacPort
+sudo port install ffmpeg
+```
+- SoX
+```bash
+# on ubuntu/debian
+sudo apt install libsox-dev
+# on mac using MacPort
+sudo port install sox 
+```
+- SoundFile
+```bash
+# using pip
+pip install soundfile
+```
+You may also need to append the library directory to LD_LIBRARY_PATH for linux or DYLD_FALLBACK_LIBRARY_PATH for MacOS if the backends are installed to non-standard path.
+
+
+
 ## Usage:
 1. Extract from single .wav file using default arguments
 ```Bash
